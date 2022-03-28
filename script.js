@@ -41,7 +41,7 @@ btnRoll.addEventListener('click', function () {
 
         // Roll dice and display
         let rndNum = randomNumber();
-        diceEl.src = `dice-${rndNum}.png`
+        diceEl.src = `images/dice-${rndNum}.png`
 
         // Checking to see if 1 was rolled
         if (rndNum === 1) {
